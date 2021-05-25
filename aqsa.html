@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="makkah.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ac4f0e2ec9.js" crossorigin="anonymous"></script>
+
+    <title>Masjid al-Aqsa</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar-container">
+            <div class="left-side">
+                <div class="arrow-back">
+                    <a href="index.html">
+                        <i class="fas fa-arrow-circle-left"></i>
+                    </a>
+                </div>
+                <h1 class="title">
+                    Masjid al-Aqsa
+                </h1>
+            </div>
+            <div class="right-side">
+                <h1 class="mobile-link">
+                    Official Wikipedia page
+                </h1>
+                <div class="arrow-forward">
+                    <a href="https://en.wikipedia.org/wiki/Al-Aqsa_Mosque" target="_blank">
+                        <i class="fas fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+    </nav>
+
+    <div class="page-container">
+        <div class="vid-container">
+            <iframe width="600" height="400"
+                src="https://www.youtube.com/embed/Ol2LGO7Nl6c?controls=0&autoplay=1&start=48&mute=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="info-container">
+
+            <p>
+                Drag the video for a 360&deg; view of al-Aqsa!
+                <br>
+                <br>
+                Al-Aqsa Mosque (Arabic: ٱلْمَسْجِد ٱلْأَقْصَىٰ‎) located in the Old City of Jerusalem, is
+                the third holiest site in Islam. The mosque was built on top of the Temple Mount, known as the Al Aqsa
+                Compound or Haram esh-Sharif in Islam.
+                <br>
+                <br>
+            </p>
+
+            <p class="mobile-view2">
+                Muslims believe
+                that Muhammad &#65018 was transported from Masjid al-Haram to this location during the Night Journey.
+                Islamic tradition holds that Muhammad &#65018 led prayers towards this site until the 16th or 17th month
+                after
+                his migration from Mecca to Medina, when Allah directed him to instead turn towards the Kaaba in
+                Mecca.
+                <br>
+                <br>
+            </p>
+            <p class="mobile-view">
+                The covered mosque building was originally a small prayer house erected by Umar, the second caliph of
+                the Rashidun Caliphate, after the Muslim conquest of the Levant in the early 7th century.
+
+            </p>
+        </div>
+    </div>
+
+    <div class="apiContainer">
+        <div class="google-api" id="map"> </div>
+    </div>
+
+    <script src="makkah.js"></script>
+
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqQPnKCX273MqVbkNzuETmc9Su6gjzJY8&callback=initMap">
+        </script>
+
+
+</body>
+
+</html>
